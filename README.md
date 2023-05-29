@@ -9,7 +9,7 @@ The purpose of captchas is to prevent automated bots from abusing online service
 
 ## Understanding the difficulty of this challenger
 
-For this challenge, two datasets were provided for captchas. The first one is referred to as "soft" and consists of simpler captchas, while the second one represents the "hard" dataset, which can contains more robust captchas with lines. In both cases, the captchas are composed of alphanumeric characters, including digits (0 to 9) and letters (a to z) abd can have 4 or 5 characters. Also contain some noise in the form of scattered dots throughout the image and has differents colors.
+For this challenge, two datasets were provided for captchas. The first one is referred to as "soft" and consists of simpler captchas, while the second one represents the "hard" dataset, which can contains more robust captchas with lines. In both cases, the captchas are composed of alphanumeric characters, including digits (0 to 9) and letters (a to z) and can have 4 or 5 characters. Also contain some noise in the form of scattered dots throughout the image and has differents colors.
 
 <p float="middle">
     <img src="images/soft - ck9g3.png" alt="Soft Captcha" width="350"/>
@@ -19,6 +19,8 @@ For this challenge, two datasets were provided for captchas. The first one is re
 The first is a example of soft dataset where the label is ck9g3 and the second image is for hard dataset with label vtl5g. We can see that the second case is indeed more complex, to the point where even humans find it difficult to identify the first character.
 
 The real challenge lies in correctly recognizing all the characters of the captcha, as a single incorrect character invalidates the captcha.
+
+You can acess the data in this link: https://drive.google.com/drive/u/2/folders/1XqYmgiIJuG8PiOyZF0lqIa18AWHTuBuj
 
 ## Method used
 
